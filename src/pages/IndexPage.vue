@@ -1,10 +1,23 @@
 <template>
+
+
+
+
+
+
+
+
   <q-page >
  <!-- class="column flex-center" -->
     <q-bar>
       <q-btn dense flat />
           <q-btn @click="fetch_DATA()" color="white" text-color="black" label="DATA" />
       <q-space />
+
+      <q-btn dense flat />
+          <q-btn @click="fetch_DATA()" color="white" text-color="black" label="PDF" />
+      <q-space />
+
 
     </q-bar>
 
